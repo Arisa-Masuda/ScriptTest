@@ -54,9 +54,8 @@ public class Test : MonoBehaviour
         int[] level = { 10, 1, 30, 50, 15 };
 
         //要素の値を順番に表示
-        Debug.Log("!!要素の値を順番に表示!!");
-        //要素の値を順番にする
-        Array.Sort(level);
+        Debug.Log("!!要素の値を初期化した順に表示!!");
+ 
         //要素の値を表示する
         for (int i = 0; i < level.Length; i++)
         {
@@ -64,11 +63,10 @@ public class Test : MonoBehaviour
         }
 
         //要素の値を逆順に表示
-        Debug.Log("!!要素の値を逆順に表示!!");
-        //要素の値を逆順にする
-        Array.Reverse(level);
-        //要素の値を表示
-        for (int i = 0; i < level.Length; i++)
+        Debug.Log("!!要素の値を逆の順番で表示!!");
+ 
+        //要素の値を表示する
+        for (int i = 4; i >= 0; i--)
         {
             Debug.Log(level[i]);
         }
